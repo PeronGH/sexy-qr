@@ -2,14 +2,6 @@
 
 Sexy SVG QR-code generator for deno
 
-[ >> [Online demo](https://avin.github.io/sexy-qr) << ]
-
-## Install
-
-```sh
-npm install sexy-qr
-```
-
 ## API
 
 ### `QRCode`
@@ -61,7 +53,7 @@ npm install sexy-qr
 ## Usage
 
 ```js
-import { QRCode, QRSvg } from 'sexy-qr';
+import { QRCode, QRSvg } from 'https://raw.githubusercontent.com/PeronGH/sexy-qr/master/mod.ts';
 
 const svgCode = (() => {
   const qrCode = new QRCode({
@@ -83,12 +75,6 @@ const svgCode = (() => {
   return qrSvg.svg;
 })();
 ```
-
-## Demo
-
-| Example 1                                                      | Example 2                                                      | Example 3                                                      | Example 4                                                      |
-| -------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------- |
-| [![Preview](./assets/ex1.svg)](https://avin.github.io/sexy-qr) | [![Preview](./assets/ex2.svg)](https://avin.github.io/sexy-qr) | [![Preview](./assets/ex3.svg)](https://avin.github.io/sexy-qr) | [![Preview](./assets/ex4.svg)](https://avin.github.io/sexy-qr) |
 
 ## License
 
