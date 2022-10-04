@@ -1,6 +1,6 @@
-# Sexy-QR
+# Sexy-QR for Deno
 
-Sexy SVG QR-code generator
+Sexy SVG QR-code generator for deno
 
 [ >> [Online demo](https://avin.github.io/sexy-qr) << ]
 
