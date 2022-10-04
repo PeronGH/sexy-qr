@@ -1,4 +1,4 @@
-import * as QRMath from './QRMath';
+import * as QRMath from './QRMath.ts';
 
 export class QRPolynomial {
   num: number[];

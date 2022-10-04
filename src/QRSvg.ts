@@ -1,5 +1,5 @@
-import { getProp, round, neighborOffsets, contour } from './utils';
-import { QRCode } from './QRCode';
+import { getProp, round, neighborOffsets, contour } from './utils.ts';
+import { QRCode } from './QRCode.ts';
 
 type QRSvgOptions = {
   size: number;

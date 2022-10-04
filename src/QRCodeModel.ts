@@ -1,8 +1,8 @@
-import { QR8bitByte } from './QR8bitByte';
-import { QRRSBlock } from './QRRSBlock';
-import { QRBitBuffer } from './QRBitBuffer';
-import { QRPolynomial } from './QRPolynomial';
-import * as QRUtil from './QRUtil';
+import { QR8bitByte } from './QR8bitByte.ts';
+import { QRRSBlock } from './QRRSBlock.ts';
+import { QRBitBuffer } from './QRBitBuffer.ts';
+import { QRPolynomial } from './QRPolynomial.ts';
+import * as QRUtil from './QRUtil.ts';
 
 const PAD0 = 0xec;
 const PAD1 = 0x11;

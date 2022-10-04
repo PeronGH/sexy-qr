@@ -1,4 +1,4 @@
-import { QRMode } from './QRMode';
+import { QRMode } from './QRMode.ts';
 
 export class QR8bitByte {
   mode = QRMode.MODE_8BIT_BYTE;

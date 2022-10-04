@@ -1,7 +1,7 @@
-import { QRMaskPattern } from './QRMaskPattern';
-import { QRPolynomial } from './QRPolynomial';
-import { QRMode } from './QRMode';
-import * as QRMath from './QRMath';
+import { QRMaskPattern } from './QRMaskPattern.ts';
+import { QRPolynomial } from './QRPolynomial.ts';
+import { QRMode } from './QRMode.ts';
+import * as QRMath from './QRMath.ts';
 
 export const PATTERN_POSITION_TABLE = [
   [],

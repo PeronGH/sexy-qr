@@ -1,7 +1,7 @@
-import { QRCodeModel } from './QRCodeModel';
-import { QRErrorCorrectLevel } from './QRErrorCorrectLevel';
-import { QRCodeLimitLength } from './QRCodeLimitLength';
-import { getUTF8Length } from './utils';
+import { QRCodeModel } from './QRCodeModel.ts';
+import { QRErrorCorrectLevel } from './QRErrorCorrectLevel.ts';
+import { QRCodeLimitLength } from './QRCodeLimitLength.ts';
+import { getUTF8Length } from './utils.ts';
 
 type QRCodeOptions = {
   ecl: 'L' | 'M' | 'Q' | 'H';
